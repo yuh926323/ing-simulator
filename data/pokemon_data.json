@@ -1390,5 +1390,45 @@
         "level": "60",
         "help_speed": "3400",
         "ing_percent": "13.0"
+    },
+    {
+        "name": "フライゴン",
+        "ing": "つやつやアボカド",
+        "amount": "5",
+        "level": "30",
+        "help_speed": "2700",
+        "ing_percent": "17.2"
+    },
+    {
+        "name": "フライゴン",
+        "ing": "げきからハーブ",
+        "amount": "6",
+        "level": "30",
+        "help_speed": "2700",
+        "ing_percent": "17.2"
+    },
+    {
+        "name": "フライゴン",
+        "ing": "つやつやアボカド",
+        "amount": "7",
+        "level": "60",
+        "help_speed": "2700",
+        "ing_percent": "17.2"
+    },
+    {
+        "name": "フライゴン",
+        "ing": "げきからハーブ",
+        "amount": "9",
+        "level": "60",
+        "help_speed": "2700",
+        "ing_percent": "17.2"
+    },
+    {
+        "name": "フライゴン",
+        "ing": "ワカクサ大豆",
+        "amount": "12",
+        "level": "60",
+        "help_speed": "2700",
+        "ing_percent": "17.2"
     }
 ]
