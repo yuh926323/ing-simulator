@@ -1430,5 +1430,45 @@
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "17.2"
+    },
+    {
+        "name": "ミカルゲ",
+        "ing": "あじわいキノコ",
+        "amount": "5",
+        "level": "30",
+        "help_speed": "3500",
+        "ing_percent": "19.8"
+    },
+    {
+        "name": "ミカルゲ",
+        "ing": "ずっしりカボチャ",
+        "amount": "3",
+        "level": "30",
+        "help_speed": "3500",
+        "ing_percent": "19.8"
+    },
+    {
+        "name": "ミカルゲ",
+        "ing": "あじわいキノコ",
+        "amount": "7",
+        "level": "60",
+        "help_speed": "3500",
+        "ing_percent": "19.8"
+    },
+    {
+        "name": "ミカルゲ",
+        "ing": "ずっしりカボチャ",
+        "amount": "5",
+        "level": "60",
+        "help_speed": "3500",
+        "ing_percent": "19.8"
+    },
+    {
+        "name": "ミカルゲ",
+        "ing": "ふといながねぎ",
+        "amount": "6",
+        "level": "60",
+        "help_speed": "3500",
+        "ing_percent": "19.8"
     }
 ]
