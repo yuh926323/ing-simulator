@@ -1510,5 +1510,45 @@
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "20.9"
+    },
+    {
+        "name": "アブリボン",
+        "ing": "あまいミツ",
+        "amount": "5",
+        "level": "30",
+        "help_speed": "2300",
+        "ing_percent": "19.4"
+    },
+    {
+        "name": "アブリボン",
+        "ing": "ピュアなオイル",
+        "amount": "4",
+        "level": "30",
+        "help_speed": "2300",
+        "ing_percent": "19.4"
+    },
+    {
+        "name": "アブリボン",
+        "ing": "あまいミツ",
+        "amount": "7",
+        "level": "60",
+        "help_speed": "2300",
+        "ing_percent": "19.4"
+    },
+    {
+        "name": "アブリボン",
+        "ing": "ピュアなオイル",
+        "amount": "6",
+        "level": "60",
+        "help_speed": "2300",
+        "ing_percent": "19.4"
+    },
+    {
+        "name": "アブリボン",
+        "ing": "ワカクサコーン",
+        "amount": "5",
+        "level": "60",
+        "help_speed": "2300",
+        "ing_percent": "19.4"
     }
 ]
