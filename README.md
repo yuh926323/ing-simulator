@@ -56,10 +56,12 @@ php .\scripts\validate_pokemon_data.php .\data\pokemon_data.json
 
 ## GitHub Pages
 
-此 repo 內含 `.github/workflows/pages.yml`，push 到 `main` 後會用 GitHub Actions 發佈靜態頁。
+此 repo 目前使用 `gh-pages` branch 發佈 GitHub Pages。
 
 如果 GitHub Pages 尚未啟用，請在 GitHub repo 的 `Settings > Pages` 選擇：
 
-- Source: `GitHub Actions`
+- Source: `Deploy from a branch`
+- Branch: `gh-pages`
+- Folder: `/ (root)`
 
 不要提交 SQLite、MySQL dump、`.env` 或任何密碼。
