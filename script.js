@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const selName = formName.value;
         const related = originalData.filter(e => e.name === selName);
         // clear previous selects
-        formIng.innerHTML = '<option value="">-- 選択 --</option>';
-        formAmount.innerHTML = '<option value="">-- 選択 --</option>';
+        formIng.innerHTML = '<option value="">-- 請選擇 --</option>';
+        formAmount.innerHTML = '<option value="">-- 請選擇 --</option>';
         if (related.length) {
             // known Pokémon: limit to related ingredients and amounts
             const uniqueIngs = Array.from(new Set(related.map(e => e.ing))).sort();
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const selIng = formIng.value;
         const related = originalData.filter(e => e.name === selName && e.ing === selIng);
         if (!related.length) return;
-        formAmount.innerHTML = '<option value="">-- 選択 --</option>';
+        formAmount.innerHTML = '<option value="">-- 請選擇 --</option>';
         const uniqueAmts = Array.from(new Set(related.map(e => e.amount))).sort((a, b) => a - b);
         uniqueAmts.forEach(a => {
             const opt = document.createElement('option'); opt.value = a; opt.textContent = a; formAmount.appendChild(opt);
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 td.textContent = entry[key];
                 tr.appendChild(td);
             });
-            // display form fields: おてぼ, スピM, スピS, 食S, 食M
+            // display form fields: 幫手獎勵, 幫忙速度M, 幫忙速度S, 食材機率S, 食材機率M
             [entry.otebo, entry.spM, entry.spS, entry.ingS, entry.ingM].forEach(flag => {
                 const td = document.createElement('td');
                 td.textContent = flag ? '✔' : '-';
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             // display 性格
             const tdNature = document.createElement('td');
-            const natureLabels = { sp_up: 'スピ↑', ing_up: '食↑', ijippari: 'いじっぱり', hikaeme: 'ひかえめ', sp_down: 'スピ↓', ing_down: '食↓' };
+            const natureLabels = { sp_up: '速度↑', ing_up: '食材↑', ijippari: '固執', hikaeme: '內斂', sp_down: '速度↓', ing_down: '食材↓' };
             tdNature.textContent = natureLabels[entry.nature] || '-';
             tr.appendChild(tdNature);
             // append average swap count with level-specific multiplier
@@ -116,13 +116,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const lvl = parseFloat(entry.level);
             // compute effective percentage with nature and support flags
             let effPercent = percent;
-            // nature modifiers: ひかえめ or 食↑ x1.2, いじっぱり x0.8
+            // nature modifiers: 內斂 or 食材↑ x1.2, 固執 x0.8
             if (entry.nature === 'hikaeme' || entry.nature === 'ing_up') {
                 effPercent *= 1.2;
             } else if (entry.nature === 'ijippari' || entry.nature === 'ing_down') {
                 effPercent *= 0.8;
             }
-            // support modifiers: 食S (0.18), 食M (0.36)
+            // support modifiers: 食材機率S (0.18), 食材機率M (0.36)
             const supportFactor = 1 + (entry.ingS ? 0.18 : 0) + (entry.ingM ? 0.36 : 0);
             effPercent *= supportFactor;
             // level-specific multiplier: lvl30 -> half, lvl60 -> one-third
@@ -137,11 +137,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const rawActual = helpSpeed * (1 - (level - 1) * 0.002) * 0.45;
             // apply modifiers to raw actual to get effective support speed
             let actual = rawActual;
-            // apply キャンチケ discount if checked
+            // apply 好露營券 discount if checked
             if (ticketCheckbox && ticketCheckbox.checked) {
                 actual = actual / 1.2;
             }
-            // apply combined modifiers: おてぼ count, おてぼ flag, スピM, スピS; cap multiplier at minimum 0.65
+            // apply combined modifiers: 幫手獎勵 count, 幫手獎勵 flag, 幫忙速度M, 幫忙速度S; cap multiplier at minimum 0.65
             const oteboCount = oteboDropdown ? parseInt(oteboDropdown.value, 10) : 0;
             const flagOtebo = entry.otebo ? 0.05 : 0;
             const flagSpM = entry.spM ? 0.14 : 0;
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let multiplier = 1 - modSum;
             if (multiplier < 0.65) multiplier = 0.65;
             actual = actual * multiplier;
-            // apply nature modifier: スピ↑ or いじっぱり => x0.9
+            // apply nature modifier: 速度↑ or 固執 => x0.9
             if (['sp_up', 'ijippari'].includes(entry.nature)) {
                 actual = actual * 0.9;
             }
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const tdActual = document.createElement('td');
             tdActual.textContent = !isNaN(actual) ? actual.toFixed(2) : '';
             tr.appendChild(tdActual);
-            // append 1時間取得回数 using adjusted avgSwapCount
+            // append 每小時取得數量 using adjusted avgSwapCount
             const tdHour = document.createElement('td');
             const amountCount = parseFloat(entry.amount);
             const denom = actual + avgSwapCount * 5;
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const tdOp = document.createElement('td');
             // duplicate-edit button
             const dupBtn = document.createElement('button');
-            dupBtn.textContent = '複製編集';
+            dupBtn.textContent = '複製編輯';
             dupBtn.classList.add('dup-btn');
             dupBtn.addEventListener('click', () => {
                 // save current filters
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // delete button for added entries
             if (!entry._orig) {
                 const delBtn = document.createElement('button');
-                delBtn.textContent = '削除';
+                delBtn.textContent = '刪除';
                 delBtn.classList.add('delete-btn');
                 delBtn.addEventListener('click', () => {
                     // remove this entry from addedData by matching unique properties
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
             (ingTerm === '' || entry.ing.includes(ingTerm))
         );
         renderTable(filtered);
-        // After filtering, default sort by 1時間取得回数 (column index 14) descending
+        // After filtering, default sort by 每小時取得數量 (column index 14) descending
         const rows = Array.from(tableBody.querySelectorAll('tr'));
         rows.sort((a, b) => {
             const vA = parseFloat(a.cells[15].textContent) || 0;
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Add sorting on 1時間取得回数 column (new index 14) by direct DOM row sort
+    // Add sorting on 每小時取得數量 column (new index 14) by direct DOM row sort
     let hourSortDir = 1;
     const hourTh = document.querySelectorAll('#pokemon-table thead th')[15];
     hourTh.style.cursor = 'pointer';
@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 ingDropdown.appendChild(opt);
             });
             renderTable(pokemonData);
-            // Default sort by 1時間取得回数 (column index 14) descending
+            // Default sort by 每小時取得數量 (column index 14) descending
             const initialRows = Array.from(tableBody.querySelectorAll('tr'));
             initialRows.sort((a, b) => {
                 const vA = parseFloat(a.cells[15].textContent) || 0;
@@ -333,7 +333,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const tr = document.createElement('tr');
             const td = document.createElement('td');
             td.colSpan = 6;
-            td.textContent = 'データの読み込みに失敗しました';
+            td.textContent = '資料讀取失敗';
             tr.appendChild(td);
             tableBody.appendChild(tr);
         });
@@ -349,12 +349,12 @@ document.addEventListener('DOMContentLoaded', () => {
             nameList.appendChild(opt);
         });
         // populate ingredient select with unique options
-        formIng.innerHTML = '<option value="">-- 選択 --</option>';
+        formIng.innerHTML = '<option value="">-- 請選擇 --</option>';
         Array.from(new Set(originalData.map(e => e.ing))).sort().forEach(ing => {
             const opt = document.createElement('option'); opt.value = ing; opt.textContent = ing; formIng.appendChild(opt);
         });
         // populate amount select with fixed range 2-30
-        formAmount.innerHTML = '<option value="">-- 選択 --</option>';
+        formAmount.innerHTML = '<option value="">-- 請選擇 --</option>';
         for (let i = 2; i <= 30; i++) {
             const opt = document.createElement('option'); opt.value = i; opt.textContent = i; formAmount.appendChild(opt);
         }

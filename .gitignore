@@ -1,0 +1,8 @@
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+data/*.db
+data/*.sqlite
+data/*.sqlite3

@@ -1,1551 +1,1551 @@
 [
     {
-        "name": "アブソル",
-        "ing": "とくせんリンゴ",
+        "name": "阿勃梭魯",
+        "ing": "特選蘋果",
         "amount": "12",
         "level": "60",
         "help_speed": "2950",
         "ing_percent": "17.8"
     },
     {
-        "name": "アブソル",
-        "ing": "とくせんリンゴ",
+        "name": "阿勃梭魯",
+        "ing": "特選蘋果",
         "amount": "8",
         "level": "30",
         "help_speed": "2950",
         "ing_percent": "17.8"
     },
     {
-        "name": "アブソル",
-        "ing": "あじわいキノコ",
+        "name": "阿勃梭魯",
+        "ing": "品鮮蘑菇",
         "amount": "7",
         "level": "60",
         "help_speed": "2950",
         "ing_percent": "17.8"
     },
     {
-        "name": "アブソル",
-        "ing": "リラックスカカオ",
+        "name": "阿勃梭魯",
+        "ing": "放鬆可可",
         "amount": "7",
         "level": "60",
         "help_speed": "2950",
         "ing_percent": "17.8"
     },
     {
-        "name": "アブソル",
-        "ing": "リラックスカカオ",
+        "name": "阿勃梭魯",
+        "ing": "放鬆可可",
         "amount": "5",
         "level": "30",
         "help_speed": "2950",
         "ing_percent": "17.8"
     },
     {
-        "name": "ウェーニバル",
-        "ing": "ワカクサ大豆",
+        "name": "狂歡浪舞鴨",
+        "ing": "萌綠大豆",
         "amount": "7",
         "level": "60",
         "help_speed": "2600",
         "ing_percent": "23.2"
     },
     {
-        "name": "ウェーニバル",
-        "ing": "ピュアなオイル",
+        "name": "狂歡浪舞鴨",
+        "ing": "純粹油",
         "amount": "6",
         "level": "60",
         "help_speed": "2600",
         "ing_percent": "23.2"
     },
     {
-        "name": "ウェーニバル",
-        "ing": "ワカクサ大豆",
+        "name": "狂歡浪舞鴨",
+        "ing": "萌綠大豆",
         "amount": "5",
         "level": "30",
         "help_speed": "2600",
         "ing_percent": "23.2"
     },
     {
-        "name": "ウェーニバル",
-        "ing": "ふといながねぎ",
+        "name": "狂歡浪舞鴨",
+        "ing": "粗枝大蔥",
         "amount": "4",
         "level": "60",
         "help_speed": "2600",
         "ing_percent": "23.2"
     },
     {
-        "name": "ウェーニバル",
-        "ing": "ふといながねぎ",
+        "name": "狂歡浪舞鴨",
+        "ing": "粗枝大蔥",
         "amount": "2",
         "level": "30",
         "help_speed": "2600",
         "ing_percent": "23.2"
     },
     {
-        "name": "ウッウ",
-        "ing": "とくせんエッグ",
+        "name": "古月鳥",
+        "ing": "特選蛋",
         "amount": "8",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "16.5"
     },
     {
-        "name": "ウッウ",
-        "ing": "ピュアなオイル",
+        "name": "古月鳥",
+        "ing": "純粹油",
         "amount": "7",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "16.5"
     },
     {
-        "name": "ウッウ",
-        "ing": "ほっこりポテト",
+        "name": "古月鳥",
+        "ing": "窩心洋芋",
         "amount": "7",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "16.5"
     },
     {
-        "name": "ウッウ",
-        "ing": "ピュアなオイル",
+        "name": "古月鳥",
+        "ing": "純粹油",
         "amount": "5",
         "level": "30",
         "help_speed": "2700",
         "ing_percent": "16.5"
     },
     {
-        "name": "ウッウ",
-        "ing": "ほっこりポテト",
+        "name": "古月鳥",
+        "ing": "窩心洋芋",
         "amount": "4",
         "level": "30",
         "help_speed": "2700",
         "ing_percent": "16.5"
     },
     {
-        "name": "ウツボット",
-        "ing": "あんみんトマト",
+        "name": "大食花",
+        "ing": "好眠番茄",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "23.3"
     },
     {
-        "name": "ウツボット",
-        "ing": "ほっこりポテト",
+        "name": "大食花",
+        "ing": "窩心洋芋",
         "amount": "6",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "23.3"
     },
     {
-        "name": "ウツボット",
-        "ing": "あんみんトマト",
+        "name": "大食花",
+        "ing": "好眠番茄",
         "amount": "5",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "23.3"
     },
     {
-        "name": "ウツボット",
-        "ing": "ほっこりポテト",
+        "name": "大食花",
+        "ing": "窩心洋芋",
         "amount": "4",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "23.3"
     },
     {
-        "name": "ウツボット",
-        "ing": "ふといながねぎ",
+        "name": "大食花",
+        "ing": "粗枝大蔥",
         "amount": "4",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "23.3"
     },
     {
-        "name": "カイリュー",
-        "ing": "ピュアなオイル",
+        "name": "快龍",
+        "ing": "純粹油",
         "amount": "8",
         "level": "60",
         "help_speed": "2600",
         "ing_percent": "26.4"
     },
     {
-        "name": "カイリュー",
-        "ing": "げきからハーブ",
+        "name": "快龍",
+        "ing": "火辣香草",
         "amount": "7",
         "level": "60",
         "help_speed": "2600",
         "ing_percent": "26.4"
     },
     {
-        "name": "カイリュー",
-        "ing": "ワカクサコーン",
+        "name": "快龍",
+        "ing": "萌綠玉米",
         "amount": "7",
         "level": "60",
         "help_speed": "2600",
         "ing_percent": "26.4"
     },
     {
-        "name": "カイリュー",
-        "ing": "げきからハーブ",
+        "name": "快龍",
+        "ing": "火辣香草",
         "amount": "5",
         "level": "30",
         "help_speed": "2600",
         "ing_percent": "26.4"
     },
     {
-        "name": "カイリュー",
-        "ing": "ワカクサコーン",
+        "name": "快龍",
+        "ing": "萌綠玉米",
         "amount": "4",
         "level": "30",
         "help_speed": "2600",
         "ing_percent": "26.4"
     },
     {
-        "name": "カイロス",
-        "ing": "とくせんリンゴ",
+        "name": "凱羅斯",
+        "ing": "特選蘋果",
         "amount": "8",
         "level": "60",
         "help_speed": "2400",
         "ing_percent": "21.6"
     },
     {
-        "name": "カイロス",
-        "ing": "あまいミツ",
+        "name": "凱羅斯",
+        "ing": "甜甜蜜",
         "amount": "7",
         "level": "60",
         "help_speed": "2400",
         "ing_percent": "21.6"
     },
     {
-        "name": "カイロス",
-        "ing": "マメミート",
+        "name": "凱羅斯",
+        "ing": "豆製肉",
         "amount": "7",
         "level": "60",
         "help_speed": "2400",
         "ing_percent": "21.6"
     },
     {
-        "name": "カイロス",
-        "ing": "あまいミツ",
+        "name": "凱羅斯",
+        "ing": "甜甜蜜",
         "amount": "5",
         "level": "30",
         "help_speed": "2400",
         "ing_percent": "21.6"
     },
     {
-        "name": "カイロス",
-        "ing": "とくせんリンゴ",
+        "name": "凱羅斯",
+        "ing": "特選蘋果",
         "amount": "5",
         "level": "30",
         "help_speed": "2400",
         "ing_percent": "21.6"
     },
     {
-        "name": "カメックス",
-        "ing": "モーモーミルク",
+        "name": "水箭龜",
+        "ing": "哞哞鮮奶",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "27.5"
     },
     {
-        "name": "カメックス",
-        "ing": "マメミート",
+        "name": "水箭龜",
+        "ing": "豆製肉",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "27.5"
     },
     {
-        "name": "カメックス",
-        "ing": "モーモーミルク",
+        "name": "水箭龜",
+        "ing": "哞哞鮮奶",
         "amount": "5",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "27.5"
     },
     {
-        "name": "カメックス",
-        "ing": "リラックスカカオ",
+        "name": "水箭龜",
+        "ing": "放鬆可可",
         "amount": "5",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "27.5"
     },
     {
-        "name": "カメックス",
-        "ing": "リラックスカカオ",
+        "name": "水箭龜",
+        "ing": "放鬆可可",
         "amount": "3",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "27.5"
     },
     {
-        "name": "ガルーラ",
-        "ing": "ワカクサ大豆",
+        "name": "袋獸",
+        "ing": "萌綠大豆",
         "amount": "8",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "22.2"
     },
     {
-        "name": "ガルーラ",
-        "ing": "あったかジンジャー",
+        "name": "袋獸",
+        "ing": "暖暖薑",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "22.2"
     },
     {
-        "name": "ガルーラ",
-        "ing": "ほっこりポテト",
+        "name": "袋獸",
+        "ing": "窩心洋芋",
         "amount": "6",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "22.2"
     },
     {
-        "name": "ガルーラ",
-        "ing": "あったかジンジャー",
+        "name": "袋獸",
+        "ing": "暖暖薑",
         "amount": "5",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "22.2"
     },
     {
-        "name": "ガルーラ",
-        "ing": "ほっこりポテト",
+        "name": "袋獸",
+        "ing": "窩心洋芋",
         "amount": "4",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "22.2"
     },
     {
-        "name": "キテルグマ",
-        "ing": "マメミート",
+        "name": "穿著熊",
+        "ing": "豆製肉",
         "amount": "10",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "22.9"
     },
     {
-        "name": "キテルグマ",
-        "ing": "とくせんエッグ",
+        "name": "穿著熊",
+        "ing": "特選蛋",
         "amount": "9",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "22.9"
     },
     {
-        "name": "キテルグマ",
-        "ing": "ワカクサコーン",
+        "name": "穿著熊",
+        "ing": "萌綠玉米",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "22.9"
     },
     {
-        "name": "キテルグマ",
-        "ing": "マメミート",
+        "name": "穿著熊",
+        "ing": "豆製肉",
         "amount": "6",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "22.9"
     },
     {
-        "name": "キテルグマ",
-        "ing": "ワカクサコーン",
+        "name": "穿著熊",
+        "ing": "萌綠玉米",
         "amount": "5",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "22.9"
     },
     {
-        "name": "キュワワー",
-        "ing": "あったかジンジャー",
+        "name": "花療環環",
+        "ing": "暖暖薑",
         "amount": "9",
         "level": "60",
         "help_speed": "2500",
         "ing_percent": "16.7"
     },
     {
-        "name": "キュワワー",
-        "ing": "ワカクサコーン",
+        "name": "花療環環",
+        "ing": "萌綠玉米",
         "amount": "7",
         "level": "60",
         "help_speed": "2500",
         "ing_percent": "16.7"
     },
     {
-        "name": "キュワワー",
-        "ing": "リラックスカカオ",
+        "name": "花療環環",
+        "ing": "放鬆可可",
         "amount": "7",
         "level": "60",
         "help_speed": "2500",
         "ing_percent": "16.7"
     },
     {
-        "name": "キュワワー",
-        "ing": "あったかジンジャー",
+        "name": "花療環環",
+        "ing": "暖暖薑",
         "amount": "6",
         "level": "30",
         "help_speed": "2500",
         "ing_percent": "16.7"
     },
     {
-        "name": "キュワワー",
-        "ing": "ワカクサコーン",
+        "name": "花療環環",
+        "ing": "萌綠玉米",
         "amount": "5",
         "level": "30",
         "help_speed": "2500",
         "ing_percent": "16.7"
     },
     {
-        "name": "クワガノン",
-        "ing": "あまいミツ",
+        "name": "鍬農炮蟲",
+        "ing": "甜甜蜜",
         "amount": "11",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "19.4"
     },
     {
-        "name": "クワガノン",
-        "ing": "あじわいキノコ",
+        "name": "鍬農炮蟲",
+        "ing": "品鮮蘑菇",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "19.4"
     },
     {
-        "name": "クワガノン",
-        "ing": "めざましコーヒー",
+        "name": "鍬農炮蟲",
+        "ing": "醒腦咖啡豆",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "19.4"
     },
     {
-        "name": "クワガノン",
-        "ing": "めざましコーヒー",
+        "name": "鍬農炮蟲",
+        "ing": "醒腦咖啡豆",
         "amount": "5",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "19.4"
     },
     {
-        "name": "クワガノン",
-        "ing": "あじわいキノコ",
+        "name": "鍬農炮蟲",
+        "ing": "品鮮蘑菇",
         "amount": "4",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "19.4"
     },
     {
-        "name": "ゲンガー",
-        "ing": "ピュアなオイル",
+        "name": "耿鬼",
+        "ing": "純粹油",
         "amount": "8",
         "level": "60",
         "help_speed": "2200",
         "ing_percent": "16.1"
     },
     {
-        "name": "ゲンガー",
-        "ing": "げきからハーブ",
+        "name": "耿鬼",
+        "ing": "火辣香草",
         "amount": "7",
         "level": "60",
         "help_speed": "2200",
         "ing_percent": "16.1"
     },
     {
-        "name": "ゲンガー",
-        "ing": "あじわいキノコ",
+        "name": "耿鬼",
+        "ing": "品鮮蘑菇",
         "amount": "6",
         "level": "60",
         "help_speed": "2200",
         "ing_percent": "16.1"
     },
     {
-        "name": "ゲンガー",
-        "ing": "げきからハーブ",
+        "name": "耿鬼",
+        "ing": "火辣香草",
         "amount": "5",
         "level": "30",
         "help_speed": "2200",
         "ing_percent": "16.1"
     },
     {
-        "name": "ゲンガー",
-        "ing": "あじわいキノコ",
+        "name": "耿鬼",
+        "ing": "品鮮蘑菇",
         "amount": "4",
         "level": "30",
         "help_speed": "2200",
         "ing_percent": "16.1"
     },
     {
-        "name": "ゴローニャ",
-        "ing": "ワカクサ大豆",
+        "name": "隆隆岩",
+        "ing": "萌綠大豆",
         "amount": "7",
         "level": "60",
         "help_speed": "3100",
         "ing_percent": "28"
     },
     {
-        "name": "ゴローニャ",
-        "ing": "ほっこりポテト",
+        "name": "隆隆岩",
+        "ing": "窩心洋芋",
         "amount": "6",
         "level": "60",
         "help_speed": "3100",
         "ing_percent": "28"
     },
     {
-        "name": "ゴローニャ",
-        "ing": "ワカクサ大豆",
+        "name": "隆隆岩",
+        "ing": "萌綠大豆",
         "amount": "5",
         "level": "30",
         "help_speed": "3100",
         "ing_percent": "28"
     },
     {
-        "name": "ゴローニャ",
-        "ing": "ほっこりポテト",
+        "name": "隆隆岩",
+        "ing": "窩心洋芋",
         "amount": "4",
         "level": "30",
         "help_speed": "3100",
         "ing_percent": "28"
     },
     {
-        "name": "ゴローニャ",
-        "ing": "あじわいキノコ",
+        "name": "隆隆岩",
+        "ing": "品鮮蘑菇",
         "amount": "4",
         "level": "60",
         "help_speed": "3100",
         "ing_percent": "28"
     },
     {
-        "name": "ダグトリオ",
-        "ing": "ワカクサ大豆",
+        "name": "三地鼠",
+        "ing": "萌綠大豆",
         "amount": "8",
         "level": "60",
         "help_speed": "2650",
         "ing_percent": "19"
     },
     {
-        "name": "ダグトリオ",
-        "ing": "あんみんトマト",
+        "name": "三地鼠",
+        "ing": "好眠番茄",
         "amount": "7",
         "level": "60",
         "help_speed": "2650",
         "ing_percent": "19"
     },
     {
-        "name": "ダグトリオ",
-        "ing": "あんみんトマト",
+        "name": "三地鼠",
+        "ing": "好眠番茄",
         "amount": "5",
         "level": "30",
         "help_speed": "2650",
         "ing_percent": "19"
     },
     {
-        "name": "ダグトリオ",
-        "ing": "ふといながねぎ",
+        "name": "三地鼠",
+        "ing": "粗枝大蔥",
         "amount": "4",
         "level": "60",
         "help_speed": "2650",
         "ing_percent": "19"
     },
     {
-        "name": "ダグトリオ",
-        "ing": "ふといながねぎ",
+        "name": "三地鼠",
+        "ing": "粗枝大蔥",
         "amount": "3",
         "level": "30",
         "help_speed": "2650",
         "ing_percent": "19"
     },
     {
-        "name": "デリバード",
-        "ing": "とくせんリンゴ",
+        "name": "信使鳥",
+        "ing": "特選蘋果",
         "amount": "9",
         "level": "60",
         "help_speed": "2500",
         "ing_percent": "18.8"
     },
     {
-        "name": "デリバード",
-        "ing": "とくせんエッグ",
+        "name": "信使鳥",
+        "ing": "特選蛋",
         "amount": "7",
         "level": "60",
         "help_speed": "2500",
         "ing_percent": "18.8"
     },
     {
-        "name": "デリバード",
-        "ing": "とくせんリンゴ",
+        "name": "信使鳥",
+        "ing": "特選蘋果",
         "amount": "6",
         "level": "30",
         "help_speed": "2500",
         "ing_percent": "18.8"
     },
     {
-        "name": "デリバード",
-        "ing": "とくせんエッグ",
+        "name": "信使鳥",
+        "ing": "特選蛋",
         "amount": "5",
         "level": "30",
         "help_speed": "2500",
         "ing_percent": "18.8"
     },
     {
-        "name": "デリバード",
-        "ing": "リラックスカカオ",
+        "name": "信使鳥",
+        "ing": "放鬆可可",
         "amount": "5",
         "level": "60",
         "help_speed": "2500",
         "ing_percent": "18.8"
     },
     {
-        "name": "デンヂムシ",
-        "ing": "あまいミツ",
+        "name": "蟲電寶",
+        "ing": "甜甜蜜",
         "amount": "11",
         "level": "60",
         "help_speed": "3300",
         "ing_percent": "15.4"
     },
     {
-        "name": "デンヂムシ",
-        "ing": "あじわいキノコ",
+        "name": "蟲電寶",
+        "ing": "品鮮蘑菇",
         "amount": "7",
         "level": "60",
         "help_speed": "3300",
         "ing_percent": "15.4"
     },
     {
-        "name": "デンヂムシ",
-        "ing": "めざましコーヒー",
+        "name": "蟲電寶",
+        "ing": "醒腦咖啡豆",
         "amount": "7",
         "level": "60",
         "help_speed": "3300",
         "ing_percent": "15.4"
     },
     {
-        "name": "デンヂムシ",
-        "ing": "めざましコーヒー",
+        "name": "蟲電寶",
+        "ing": "醒腦咖啡豆",
         "amount": "5",
         "level": "30",
         "help_speed": "3300",
         "ing_percent": "15.4"
     },
     {
-        "name": "デンヂムシ",
-        "ing": "あじわいキノコ",
+        "name": "蟲電寶",
+        "ing": "品鮮蘑菇",
         "amount": "4",
         "level": "30",
         "help_speed": "3300",
         "ing_percent": "15.4"
     },
     {
-        "name": "ドオー",
-        "ing": "ほっこりポテト",
+        "name": "土王",
+        "ing": "窩心洋芋",
         "amount": "9",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "20.8"
     },
     {
-        "name": "ドオー",
-        "ing": "リラックスカカオ",
+        "name": "土王",
+        "ing": "放鬆可可",
         "amount": "7",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "20.8"
     },
     {
-        "name": "ドオー",
-        "ing": "めざましコーヒー",
+        "name": "土王",
+        "ing": "醒腦咖啡豆",
         "amount": "7",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "20.8"
     },
     {
-        "name": "ドオー",
-        "ing": "リラックスカカオ",
+        "name": "土王",
+        "ing": "放鬆可可",
         "amount": "5",
         "level": "30",
         "help_speed": "3500",
         "ing_percent": "20.8"
     },
     {
-        "name": "ドオー",
-        "ing": "めざましコーヒー",
+        "name": "土王",
+        "ing": "醒腦咖啡豆",
         "amount": "4",
         "level": "30",
         "help_speed": "3500",
         "ing_percent": "20.8"
     },
     {
-        "name": "ドクロッグ",
-        "ing": "マメミート",
+        "name": "毒骷蛙",
+        "ing": "豆製肉",
         "amount": "8",
         "level": "60",
         "help_speed": "3400",
         "ing_percent": "22.9"
     },
     {
-        "name": "ドクロッグ",
-        "ing": "ピュアなオイル",
+        "name": "毒骷蛙",
+        "ing": "純粹油",
         "amount": "7",
         "level": "60",
         "help_speed": "3400",
         "ing_percent": "22.9"
     },
     {
-        "name": "ドクロッグ",
-        "ing": "ピュアなオイル",
+        "name": "毒骷蛙",
+        "ing": "純粹油",
         "amount": "5",
         "level": "30",
         "help_speed": "3400",
         "ing_percent": "22.9"
     },
     {
-        "name": "ドクロッグ",
-        "ing": "マメミート",
+        "name": "毒骷蛙",
+        "ing": "豆製肉",
         "amount": "5",
         "level": "30",
         "help_speed": "3400",
         "ing_percent": "22.9"
     },
     {
-        "name": "ニャローテ",
-        "ing": "モーモーミルク",
+        "name": "蒂蕾喵",
+        "ing": "哞哞鮮奶",
         "amount": "9",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "20.9"
     },
     {
-        "name": "ニャローテ",
-        "ing": "あったかジンジャー",
+        "name": "蒂蕾喵",
+        "ing": "暖暖薑",
         "amount": "8",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "20.9"
     },
     {
-        "name": "ニャローテ",
-        "ing": "ほっこりポテト",
+        "name": "蒂蕾喵",
+        "ing": "窩心洋芋",
         "amount": "7",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "20.9"
     },
     {
-        "name": "ニャローテ",
-        "ing": "モーモーミルク",
+        "name": "蒂蕾喵",
+        "ing": "哞哞鮮奶",
         "amount": "6",
         "level": "30",
         "help_speed": "3500",
         "ing_percent": "20.9"
     },
     {
-        "name": "ニャローテ",
-        "ing": "ほっこりポテト",
+        "name": "蒂蕾喵",
+        "ing": "窩心洋芋",
         "amount": "5",
         "level": "30",
         "help_speed": "3500",
         "ing_percent": "20.9"
     },
     {
-        "name": "ヌオー",
-        "ing": "マメミート",
+        "name": "沼王",
+        "ing": "豆製肉",
         "amount": "12",
         "level": "60",
         "help_speed": "3400",
         "ing_percent": "19"
     },
     {
-        "name": "ヌオー",
-        "ing": "ほっこりポテト",
+        "name": "沼王",
+        "ing": "窩心洋芋",
         "amount": "10",
         "level": "60",
         "help_speed": "3400",
         "ing_percent": "19"
     },
     {
-        "name": "ヌオー",
-        "ing": "あじわいキノコ",
+        "name": "沼王",
+        "ing": "品鮮蘑菇",
         "amount": "7",
         "level": "60",
         "help_speed": "3400",
         "ing_percent": "19"
     },
     {
-        "name": "ヌオー",
-        "ing": "ほっこりポテト",
+        "name": "沼王",
+        "ing": "窩心洋芋",
         "amount": "6",
         "level": "30",
         "help_speed": "3400",
         "ing_percent": "19"
     },
     {
-        "name": "ヌオー",
-        "ing": "あじわいキノコ",
+        "name": "沼王",
+        "ing": "品鮮蘑菇",
         "amount": "5",
         "level": "30",
         "help_speed": "3400",
         "ing_percent": "19"
     },
     {
-        "name": "ハピナス",
-        "ing": "あまいミツ",
+        "name": "幸福蛋",
+        "ing": "甜甜蜜",
         "amount": "8",
         "level": "60",
         "help_speed": "3100",
         "ing_percent": "23.8"
     },
     {
-        "name": "ハピナス",
-        "ing": "とくせんエッグ",
+        "name": "幸福蛋",
+        "ing": "特選蛋",
         "amount": "7",
         "level": "60",
         "help_speed": "3100",
         "ing_percent": "23.8"
     },
     {
-        "name": "ハピナス",
-        "ing": "ほっこりポテト",
+        "name": "幸福蛋",
+        "ing": "窩心洋芋",
         "amount": "7",
         "level": "60",
         "help_speed": "3100",
         "ing_percent": "23.8"
     },
     {
-        "name": "ハピナス",
-        "ing": "とくせんエッグ",
+        "name": "幸福蛋",
+        "ing": "特選蛋",
         "amount": "5",
         "level": "30",
         "help_speed": "3100",
         "ing_percent": "23.8"
     },
     {
-        "name": "ハピナス",
-        "ing": "ほっこりポテト",
+        "name": "幸福蛋",
+        "ing": "窩心洋芋",
         "amount": "4",
         "level": "30",
         "help_speed": "3100",
         "ing_percent": "23.8"
     },
     {
-        "name": "バリヤード",
-        "ing": "あんみんトマト",
+        "name": "魔牆人偶",
+        "ing": "好眠番茄",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "21.6"
     },
     {
-        "name": "バリヤード",
-        "ing": "ほっこりポテト",
+        "name": "魔牆人偶",
+        "ing": "窩心洋芋",
         "amount": "6",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "21.6"
     },
     {
-        "name": "バリヤード",
-        "ing": "あんみんトマト",
+        "name": "魔牆人偶",
+        "ing": "好眠番茄",
         "amount": "5",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "21.6"
     },
     {
-        "name": "バリヤード",
-        "ing": "ほっこりポテト",
+        "name": "魔牆人偶",
+        "ing": "窩心洋芋",
         "amount": "4",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "21.6"
     },
     {
-        "name": "バリヤード",
-        "ing": "ふといながねぎ",
+        "name": "魔牆人偶",
+        "ing": "粗枝大蔥",
         "amount": "4",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "21.6"
     },
     {
-        "name": "バンギラス",
-        "ing": "ワカクサ大豆",
+        "name": "班基拉斯",
+        "ing": "萌綠大豆",
         "amount": "8",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "26.6"
     },
     {
-        "name": "バンギラス",
-        "ing": "マメミート",
+        "name": "班基拉斯",
+        "ing": "豆製肉",
         "amount": "8",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "26.6"
     },
     {
-        "name": "バンギラス",
-        "ing": "あったかジンジャー",
+        "name": "班基拉斯",
+        "ing": "暖暖薑",
         "amount": "7",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "26.6"
     },
     {
-        "name": "バンギラス",
-        "ing": "あったかジンジャー",
+        "name": "班基拉斯",
+        "ing": "暖暖薑",
         "amount": "5",
         "level": "30",
         "help_speed": "2700",
         "ing_percent": "26.6"
     },
     {
-        "name": "バンギラス",
-        "ing": "ワカクサ大豆",
+        "name": "班基拉斯",
+        "ing": "萌綠大豆",
         "amount": "5",
         "level": "30",
         "help_speed": "2700",
         "ing_percent": "26.6"
     },
     {
-        "name": "フシギバナ",
-        "ing": "あまいミツ",
+        "name": "妙蛙花",
+        "ing": "甜甜蜜",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "26.6"
     },
     {
-        "name": "フシギバナ",
-        "ing": "あんみんトマト",
+        "name": "妙蛙花",
+        "ing": "好眠番茄",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "26.6"
     },
     {
-        "name": "フシギバナ",
-        "ing": "ほっこりポテト",
+        "name": "妙蛙花",
+        "ing": "窩心洋芋",
         "amount": "6",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "26.6"
     },
     {
-        "name": "フシギバナ",
-        "ing": "あまいミツ",
+        "name": "妙蛙花",
+        "ing": "甜甜蜜",
         "amount": "5",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "26.6"
     },
     {
-        "name": "フシギバナ",
-        "ing": "あんみんトマト",
+        "name": "妙蛙花",
+        "ing": "好眠番茄",
         "amount": "4",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "26.6"
     },
     {
-        "name": "ボスゴドラ",
-        "ing": "マメミート",
+        "name": "波士可多拉",
+        "ing": "豆製肉",
         "amount": "7",
         "level": "60",
         "help_speed": "3000",
         "ing_percent": "28.5"
     },
     {
-        "name": "ボスゴドラ",
-        "ing": "ワカクサ大豆",
+        "name": "波士可多拉",
+        "ing": "萌綠大豆",
         "amount": "7",
         "level": "60",
         "help_speed": "3000",
         "ing_percent": "28.5"
     },
     {
-        "name": "ボスゴドラ",
-        "ing": "マメミート",
+        "name": "波士可多拉",
+        "ing": "豆製肉",
         "amount": "5",
         "level": "30",
         "help_speed": "3000",
         "ing_percent": "28.5"
     },
     {
-        "name": "ボスゴドラ",
-        "ing": "めざましコーヒー",
+        "name": "波士可多拉",
+        "ing": "醒腦咖啡豆",
         "amount": "5",
         "level": "60",
         "help_speed": "3000",
         "ing_percent": "28.5"
     },
     {
-        "name": "ボスゴドラ",
-        "ing": "めざましコーヒー",
+        "name": "波士可多拉",
+        "ing": "醒腦咖啡豆",
         "amount": "3",
         "level": "30",
         "help_speed": "3000",
         "ing_percent": "28.5"
     },
     {
-        "name": "マスカーニャ",
-        "ing": "モーモーミルク",
+        "name": "魔幻假面喵",
+        "ing": "哞哞鮮奶",
         "amount": "9",
         "level": "60",
         "help_speed": "2600",
         "ing_percent": "19"
     },
     {
-        "name": "マスカーニャ",
-        "ing": "あったかジンジャー",
+        "name": "魔幻假面喵",
+        "ing": "暖暖薑",
         "amount": "8",
         "level": "60",
         "help_speed": "2600",
         "ing_percent": "19"
     },
     {
-        "name": "マスカーニャ",
-        "ing": "ほっこりポテト",
+        "name": "魔幻假面喵",
+        "ing": "窩心洋芋",
         "amount": "7",
         "level": "60",
         "help_speed": "2600",
         "ing_percent": "19"
     },
     {
-        "name": "マスカーニャ",
-        "ing": "モーモーミルク",
+        "name": "魔幻假面喵",
+        "ing": "哞哞鮮奶",
         "amount": "6",
         "level": "30",
         "help_speed": "2600",
         "ing_percent": "19"
     },
     {
-        "name": "マスカーニャ",
-        "ing": "ほっこりポテト",
+        "name": "魔幻假面喵",
+        "ing": "窩心洋芋",
         "amount": "5",
         "level": "30",
         "help_speed": "2600",
         "ing_percent": "19"
     },
     {
-        "name": "メタモン",
-        "ing": "ピュアなオイル",
+        "name": "百變怪",
+        "ing": "純粹油",
         "amount": "7",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "20.1"
     },
     {
-        "name": "メタモン",
-        "ing": "ピュアなオイル",
+        "name": "百變怪",
+        "ing": "純粹油",
         "amount": "5",
         "level": "30",
         "help_speed": "3500",
         "ing_percent": "20.1"
     },
     {
-        "name": "メタモン",
-        "ing": "ふといながねぎ",
+        "name": "百變怪",
+        "ing": "粗枝大蔥",
         "amount": "5",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "20.1"
     },
     {
-        "name": "メタモン",
-        "ing": "ふといながねぎ",
+        "name": "百變怪",
+        "ing": "粗枝大蔥",
         "amount": "3",
         "level": "30",
         "help_speed": "3500",
         "ing_percent": "20.1"
     },
     {
-        "name": "メタモン",
-        "ing": "おいしいシッポ",
+        "name": "百變怪",
+        "ing": "美味尾巴",
         "amount": "3",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "20.1"
     },
     {
-        "name": "ユキノオー",
-        "ing": "あんみんトマト",
+        "name": "暴雪王",
+        "ing": "好眠番茄",
         "amount": "7",
         "level": "60",
         "help_speed": "3000",
         "ing_percent": "25"
     },
     {
-        "name": "ユキノオー",
-        "ing": "とくせんエッグ",
+        "name": "暴雪王",
+        "ing": "特選蛋",
         "amount": "7",
         "level": "60",
         "help_speed": "3000",
         "ing_percent": "25"
     },
     {
-        "name": "ユキノオー",
-        "ing": "あんみんトマト",
+        "name": "暴雪王",
+        "ing": "好眠番茄",
         "amount": "5",
         "level": "30",
         "help_speed": "3000",
         "ing_percent": "25"
     },
     {
-        "name": "ユキノオー",
-        "ing": "あじわいキノコ",
+        "name": "暴雪王",
+        "ing": "品鮮蘑菇",
         "amount": "5",
         "level": "60",
         "help_speed": "3000",
         "ing_percent": "25"
     },
     {
-        "name": "ユキノオー",
-        "ing": "とくせんエッグ",
+        "name": "暴雪王",
+        "ing": "特選蛋",
         "amount": "4",
         "level": "30",
         "help_speed": "3000",
         "ing_percent": "25"
     },
     {
-        "name": "ラウドボーン",
-        "ing": "とくせんリンゴ",
+        "name": "骨紋巨聲鱷",
+        "ing": "特選蘋果",
         "amount": "7",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "26.8"
     },
     {
-        "name": "ラウドボーン",
-        "ing": "マメミート",
+        "name": "骨紋巨聲鱷",
+        "ing": "豆製肉",
         "amount": "6",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "26.8"
     },
     {
-        "name": "ラウドボーン",
-        "ing": "とくせんリンゴ",
+        "name": "骨紋巨聲鱷",
+        "ing": "特選蘋果",
         "amount": "5",
         "level": "30",
         "help_speed": "2700",
         "ing_percent": "26.8"
     },
     {
-        "name": "ラウドボーン",
-        "ing": "げきからハーブ",
+        "name": "骨紋巨聲鱷",
+        "ing": "火辣香草",
         "amount": "5",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "26.8"
     },
     {
-        "name": "ラウドボーン",
-        "ing": "マメミート",
+        "name": "骨紋巨聲鱷",
+        "ing": "豆製肉",
         "amount": "4",
         "level": "30",
         "help_speed": "2700",
         "ing_percent": "26.8"
     },
     {
-        "name": "リザードン",
-        "ing": "あったかジンジャー",
+        "name": "噴火龍",
+        "ing": "暖暖薑",
         "amount": "7",
         "level": "60",
         "help_speed": "2400",
         "ing_percent": "22.4"
     },
     {
-        "name": "リザードン",
-        "ing": "マメミート",
+        "name": "噴火龍",
+        "ing": "豆製肉",
         "amount": "7",
         "level": "60",
         "help_speed": "2400",
         "ing_percent": "22.4"
     },
     {
-        "name": "リザードン",
-        "ing": "げきからハーブ",
+        "name": "噴火龍",
+        "ing": "火辣香草",
         "amount": "6",
         "level": "60",
         "help_speed": "2400",
         "ing_percent": "22.4"
     },
     {
-        "name": "リザードン",
-        "ing": "マメミート",
+        "name": "噴火龍",
+        "ing": "豆製肉",
         "amount": "5",
         "level": "30",
         "help_speed": "2400",
         "ing_percent": "22.4"
     },
     {
-        "name": "リザードン",
-        "ing": "あったかジンジャー",
+        "name": "噴火龍",
+        "ing": "暖暖薑",
         "amount": "4",
         "level": "30",
         "help_speed": "2400",
         "ing_percent": "22.4"
     },
     {
-        "name": "レントラー",
-        "ing": "あんみんトマト",
+        "name": "倫琴貓",
+        "ing": "好眠番茄",
         "amount": "7",
         "level": "60",
         "help_speed": "2400",
         "ing_percent": "20"
     },
     {
-        "name": "レントラー",
-        "ing": "ピュアなオイル",
+        "name": "倫琴貓",
+        "ing": "純粹油",
         "amount": "7",
         "level": "60",
         "help_speed": "2400",
         "ing_percent": "20"
     },
     {
-        "name": "レントラー",
-        "ing": "あんみんトマト",
+        "name": "倫琴貓",
+        "ing": "好眠番茄",
         "amount": "5",
         "level": "30",
         "help_speed": "2400",
         "ing_percent": "20"
     },
     {
-        "name": "レントラー",
-        "ing": "めざましコーヒー",
+        "name": "倫琴貓",
+        "ing": "醒腦咖啡豆",
         "amount": "5",
         "level": "60",
         "help_speed": "2400",
         "ing_percent": "20"
     },
     {
-        "name": "レントラー",
-        "ing": "ピュアなオイル",
+        "name": "倫琴貓",
+        "ing": "純粹油",
         "amount": "4",
         "level": "30",
         "help_speed": "2400",
         "ing_percent": "20"
     },
     {
-        "name": "クチート",
-        "ing": "ピュアなオイル",
+        "name": "大嘴娃",
+        "ing": "純粹油",
         "amount": "5",
         "level": "30",
         "help_speed": "3200",
         "ing_percent": "20.4"
     },
     {
-        "name": "クチート",
-        "ing": "ワカクサコーン",
+        "name": "大嘴娃",
+        "ing": "萌綠玉米",
         "amount": "4",
         "level": "30",
         "help_speed": "3200",
         "ing_percent": "20.4"
     },
     {
-        "name": "クチート",
-        "ing": "ピュアなオイル",
+        "name": "大嘴娃",
+        "ing": "純粹油",
         "amount": "7",
         "level": "60",
         "help_speed": "3200",
         "ing_percent": "20.4"
     },
     {
-        "name": "クチート",
-        "ing": "ワカクサコーン",
+        "name": "大嘴娃",
+        "ing": "萌綠玉米",
         "amount": "6",
         "level": "60",
         "help_speed": "3200",
         "ing_percent": "20.4"
     },
     {
-        "name": "クチート",
-        "ing": "あんみんトマト",
+        "name": "大嘴娃",
+        "ing": "好眠番茄",
         "amount": "8",
         "level": "60",
         "help_speed": "3200",
         "ing_percent": "20.4"
     },
     {
-        "name": "カモネギ",
-        "ing": "ふといながねぎ",
+        "name": "大蔥鴨",
+        "ing": "粗枝大蔥",
         "amount": "5",
         "level": "30",
         "help_speed": "3000",
         "ing_percent": "16.0"
     },
     {
-        "name": "カモネギ",
-        "ing": "マメミート",
+        "name": "大蔥鴨",
+        "ing": "豆製肉",
         "amount": "8",
         "level": "30",
         "help_speed": "3000",
         "ing_percent": "16.0"
     },
     {
-        "name": "カモネギ",
-        "ing": "ふといながねぎ",
+        "name": "大蔥鴨",
+        "ing": "粗枝大蔥",
         "amount": "7",
         "level": "60",
         "help_speed": "3000",
         "ing_percent": "16.0"
     },
     {
-        "name": "カモネギ",
-        "ing": "マメミート",
+        "name": "大蔥鴨",
+        "ing": "豆製肉",
         "amount": "13",
         "level": "60",
         "help_speed": "3000",
         "ing_percent": "16.0"
     },
     {
-        "name": "カモネギ",
-        "ing": "あったかジンジャー",
+        "name": "大蔥鴨",
+        "ing": "暖暖薑",
         "amount": "12",
         "level": "60",
         "help_speed": "3000",
         "ing_percent": "16.0"
     },
     {
-        "name": "パンプジン(こだま)",
-        "ing": "ずっしりカボチャ",
+        "name": "南瓜怪人（小顆種）",
+        "ing": "沉甸甸南瓜",
         "amount": "5",
         "level": "30",
         "help_speed": "3100",
         "ing_percent": "13.0"
     },
     {
-        "name": "パンプジン(こだま)",
-        "ing": "ずっしりカボチャ",
+        "name": "南瓜怪人（小顆種）",
+        "ing": "沉甸甸南瓜",
         "amount": "7",
         "level": "60",
         "help_speed": "3100",
         "ing_percent": "13.0"
     },
     {
-        "name": "パンプジン(こだま)",
-        "ing": "ワカクサ大豆",
+        "name": "南瓜怪人（小顆種）",
+        "ing": "萌綠大豆",
         "amount": "11",
         "level": "30",
         "help_speed": "3100",
         "ing_percent": "13.0"
     },
     {
-        "name": "パンプジン(こだま)",
-        "ing": "ワカクサ大豆",
+        "name": "南瓜怪人（小顆種）",
+        "ing": "萌綠大豆",
         "amount": "18",
         "level": "60",
         "help_speed": "3100",
         "ing_percent": "13.0"
     },
     {
-        "name": "パンプジン(こだま)",
-        "ing": "ほっこりポテト",
+        "name": "南瓜怪人（小顆種）",
+        "ing": "窩心洋芋",
         "amount": "15",
         "level": "60",
         "help_speed": "3100",
         "ing_percent": "13.0"
     },
     {
-        "name": "パンプジン(ギガだま)",
-        "ing": "ずっしりカボチャ",
+        "name": "南瓜怪人（巨顆種）",
+        "ing": "沉甸甸南瓜",
         "amount": "5",
         "level": "30",
         "help_speed": "3400",
         "ing_percent": "13.0"
     },
     {
-        "name": "パンプジン(ギガだま)",
-        "ing": "ずっしりカボチャ",
+        "name": "南瓜怪人（巨顆種）",
+        "ing": "沉甸甸南瓜",
         "amount": "7",
         "level": "60",
         "help_speed": "3400",
         "ing_percent": "13.0"
     },
     {
-        "name": "パンプジン(ギガだま)",
-        "ing": "ワカクサ大豆",
+        "name": "南瓜怪人（巨顆種）",
+        "ing": "萌綠大豆",
         "amount": "11",
         "level": "30",
         "help_speed": "3400",
         "ing_percent": "13.0"
     },
     {
-        "name": "パンプジン(ギガだま)",
-        "ing": "ワカクサ大豆",
+        "name": "南瓜怪人（巨顆種）",
+        "ing": "萌綠大豆",
         "amount": "18",
         "level": "60",
         "help_speed": "3400",
         "ing_percent": "13.0"
     },
     {
-        "name": "パンプジン(ギガだま)",
-        "ing": "ほっこりポテト",
+        "name": "南瓜怪人（巨顆種）",
+        "ing": "窩心洋芋",
         "amount": "15",
         "level": "60",
         "help_speed": "3400",
         "ing_percent": "13.0"
     },
     {
-        "name": "フライゴン",
-        "ing": "つやつやアボカド",
+        "name": "沙漠蜻蜓",
+        "ing": "嫩亮酪梨",
         "amount": "5",
         "level": "30",
         "help_speed": "2700",
         "ing_percent": "17.2"
     },
     {
-        "name": "フライゴン",
-        "ing": "げきからハーブ",
+        "name": "沙漠蜻蜓",
+        "ing": "火辣香草",
         "amount": "6",
         "level": "30",
         "help_speed": "2700",
         "ing_percent": "17.2"
     },
     {
-        "name": "フライゴン",
-        "ing": "つやつやアボカド",
+        "name": "沙漠蜻蜓",
+        "ing": "嫩亮酪梨",
         "amount": "7",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "17.2"
     },
     {
-        "name": "フライゴン",
-        "ing": "げきからハーブ",
+        "name": "沙漠蜻蜓",
+        "ing": "火辣香草",
         "amount": "9",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "17.2"
     },
     {
-        "name": "フライゴン",
-        "ing": "ワカクサ大豆",
+        "name": "沙漠蜻蜓",
+        "ing": "萌綠大豆",
         "amount": "12",
         "level": "60",
         "help_speed": "2700",
         "ing_percent": "17.2"
     },
     {
-        "name": "ミカルゲ",
-        "ing": "あじわいキノコ",
+        "name": "花岩怪",
+        "ing": "品鮮蘑菇",
         "amount": "5",
         "level": "30",
         "help_speed": "3500",
         "ing_percent": "19.8"
     },
     {
-        "name": "ミカルゲ",
-        "ing": "ずっしりカボチャ",
+        "name": "花岩怪",
+        "ing": "沉甸甸南瓜",
         "amount": "3",
         "level": "30",
         "help_speed": "3500",
         "ing_percent": "19.8"
     },
     {
-        "name": "ミカルゲ",
-        "ing": "あじわいキノコ",
+        "name": "花岩怪",
+        "ing": "品鮮蘑菇",
         "amount": "7",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "19.8"
     },
     {
-        "name": "ミカルゲ",
-        "ing": "ずっしりカボチャ",
+        "name": "花岩怪",
+        "ing": "沉甸甸南瓜",
         "amount": "5",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "19.8"
     },
     {
-        "name": "ミカルゲ",
-        "ing": "ふといながねぎ",
+        "name": "花岩怪",
+        "ing": "粗枝大蔥",
         "amount": "6",
         "level": "60",
         "help_speed": "3500",
         "ing_percent": "19.8"
     },
     {
-        "name": "ハルクジラ",
-        "ing": "ほっこりポテト",
+        "name": "浩大鯨",
+        "ing": "窩心洋芋",
         "amount": "5",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "20.9"
     },
     {
-        "name": "ハルクジラ",
-        "ing": "マメミート",
+        "name": "浩大鯨",
+        "ing": "豆製肉",
         "amount": "5",
         "level": "30",
         "help_speed": "2800",
         "ing_percent": "20.9"
     },
     {
-        "name": "ハルクジラ",
-        "ing": "ほっこりポテト",
+        "name": "浩大鯨",
+        "ing": "窩心洋芋",
         "amount": "7",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "20.9"
     },
     {
-        "name": "ハルクジラ",
-        "ing": "マメミート",
+        "name": "浩大鯨",
+        "ing": "豆製肉",
         "amount": "9",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "20.9"
     },
     {
-        "name": "ハルクジラ",
-        "ing": "ずっしりカボチャ",
+        "name": "浩大鯨",
+        "ing": "沉甸甸南瓜",
         "amount": "4",
         "level": "60",
         "help_speed": "2800",
         "ing_percent": "20.9"
     },
     {
-        "name": "アブリボン",
-        "ing": "あまいミツ",
+        "name": "蝶結萌虻",
+        "ing": "甜甜蜜",
         "amount": "5",
         "level": "30",
         "help_speed": "2300",
         "ing_percent": "19.4"
     },
     {
-        "name": "アブリボン",
-        "ing": "ピュアなオイル",
+        "name": "蝶結萌虻",
+        "ing": "純粹油",
         "amount": "4",
         "level": "30",
         "help_speed": "2300",
         "ing_percent": "19.4"
     },
     {
-        "name": "アブリボン",
-        "ing": "あまいミツ",
+        "name": "蝶結萌虻",
+        "ing": "甜甜蜜",
         "amount": "7",
         "level": "60",
         "help_speed": "2300",
         "ing_percent": "19.4"
     },
     {
-        "name": "アブリボン",
-        "ing": "ピュアなオイル",
+        "name": "蝶結萌虻",
+        "ing": "純粹油",
         "amount": "6",
         "level": "60",
         "help_speed": "2300",
         "ing_percent": "19.4"
     },
     {
-        "name": "アブリボン",
-        "ing": "ワカクサコーン",
+        "name": "蝶結萌虻",
+        "ing": "萌綠玉米",
         "amount": "5",
         "level": "60",
         "help_speed": "2300",
