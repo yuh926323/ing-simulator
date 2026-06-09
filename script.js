@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ingDropdown = document.getElementById('search-ing-dropdown');
     const ticketCheckbox = document.getElementById('ticket-checkbox');
     const oteboDropdown = document.getElementById('otebo-dropdown');
+    const themeToggle = document.getElementById('theme-toggle');
     let originalData = [];
     let addedData = JSON.parse(localStorage.getItem('addedPokemon') || '[]');
     // ensure added entries are flagged as non-original for green background
@@ -29,6 +30,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const formIngM = document.getElementById('form-ingM');
     const formNature = document.getElementById('form-nature');
     const saveBtn = document.getElementById('save-btn');
+
+    function setTheme(theme, persist = true) {
+        document.documentElement.dataset.theme = theme;
+        if (themeToggle) {
+            const isDark = theme === 'dark';
+            themeToggle.textContent = isDark ? '淺色模式' : '深色模式';
+            themeToggle.setAttribute('aria-pressed', String(isDark));
+        }
+        if (persist) {
+            localStorage.setItem('theme', theme);
+        }
+    }
+
+    const storedTheme = localStorage.getItem('theme');
+    const prefersDarkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    setTheme(storedTheme || (prefersDarkQuery.matches ? 'dark' : 'light'), Boolean(storedTheme));
+    themeToggle?.addEventListener('click', () => {
+        setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+    });
+    prefersDarkQuery.addEventListener('change', event => {
+        if (!localStorage.getItem('theme')) {
+            setTheme(event.matches ? 'dark' : 'light', false);
+        }
+    });
+
     // dynamically populate ingredient and amount based on selected Pokémon name
     formName.addEventListener('input', () => {
         const selName = formName.value;

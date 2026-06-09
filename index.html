@@ -4,11 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <title>寶可夢食材模擬器</title>
+    <script>
+        (() => {
+            const storedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.dataset.theme = storedTheme || (prefersDark ? 'dark' : 'light');
+        })();
+    </script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>寶可夢食材模擬器</h1>
+    <header class="page-header">
+        <h1>寶可夢食材模擬器</h1>
+        <button type="button" id="theme-toggle" aria-pressed="false">深色模式</button>
+    </header>
     <button id="add-btn">新增寶可夢</button>
     <div class="controls">
         <label for="search-input">依名稱搜尋: </label>

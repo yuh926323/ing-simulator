@@ -1,7 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+  --bg: #f7f8fb;
+  --surface: #fff;
+  --surface-alt: #eef1f5;
+  --surface-muted: #fbfbfc;
+  --text: #202124;
+  --muted-text: #4c5563;
+  --border: #d8dde5;
+  --focus: #2f80ed;
+  --primary: #2196F3;
+  --primary-hover: #1976D2;
+  --success: #4caf50;
+  --success-hover: #45a049;
+  --danger: #f44336;
+  --danger-hover: #e53935;
+  --hover-row: #e0f7fa;
+  --new-row: #e8f5e9;
+  --new-row-alt: #d5f7d6;
+  --modal-backdrop: rgba(0, 0, 0, 0.5);
+  --shadow: rgba(47, 128, 237, 0.35);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #101211;
+  --surface: #181c1a;
+  --surface-alt: #232925;
+  --surface-muted: #151917;
+  --text: #edf2ee;
+  --muted-text: #b8c2bc;
+  --border: #3b443f;
+  --focus: #75b7ff;
+  --primary: #4d9be8;
+  --primary-hover: #6bb2fa;
+  --success: #4faa62;
+  --success-hover: #62c277;
+  --danger: #df5b51;
+  --danger-hover: #ee7168;
+  --hover-row: #253b3b;
+  --new-row: #183424;
+  --new-row-alt: #1c402b;
+  --modal-backdrop: rgba(0, 0, 0, 0.72);
+  --shadow: rgba(117, 183, 255, 0.32);
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background: #f9f9f9;
+  background: var(--bg);
+  color: var(--text);
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.page-header h1 {
+  margin: 0;
 }
 .controls {
   margin-bottom: 15px;
@@ -13,50 +74,62 @@ body {
 .controls label {
   font-weight: bold;
 }
-.controls input[type="text"], .controls select, .controls input[type="checkbox"] {
+.controls input[type="text"], .controls select, .controls input[type="checkbox"],
+.modal-content input, .modal-content select {
   padding: 5px;
-  border: 1px solid #ccc;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 4px;
   font-size: 14px;
+}
+::placeholder {
+  color: var(--muted-text);
+  opacity: 1;
 }
 table {
   width: 100%;
   border-collapse: collapse;
-  background: #fff;
+  background: var(--surface);
 }
 th, td {
   padding: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--border);
   text-align: center;
   font-size: 14px;
 }
 thead th {
-  background: #f0f0f0;
+  background: var(--surface-alt);
   font-weight: bold;
 }
 tbody tr:nth-child(odd) {
-  background: #fbfbfb;
+  background: var(--surface-muted);
 }
 tbody tr:hover {
-  background: #e0f7fa;
+  background: var(--hover-row);
 }
 input:focus, select:focus {
   outline: none;
-  border-color: #66afe9;
-  box-shadow: 0 0 3px rgba(102,175,233,0.6);
+  border-color: var(--focus);
+  box-shadow: 0 0 3px var(--shadow);
 }
 .new-entry {
-  background-color: #e8f5e9;
+  background-color: var(--new-row);
 }
 .modal {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.5);
+  background: var(--modal-backdrop);
   display: flex; align-items: center; justify-content: center;
 }
 .modal.hidden { display: none; }
 .modal-content {
-  background: #fff; padding: 20px; border-radius: 8px; width: 400px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 20px;
+  border-radius: 8px;
+  width: min(400px, calc(100vw - 32px));
 }
 .modal-content .close {
   float: right; cursor: pointer;
@@ -73,7 +146,7 @@ input:focus, select:focus {
   width: 100%;
   margin-top: 4px;
   padding: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border);
   border-radius: 4px;
   font-size: 14px;
 }
@@ -83,7 +156,7 @@ input:focus, select:focus {
   width: 100%;
   margin-top: 4px;
   padding: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border);
   border-radius: 4px;
   font-size: 14px;
 }
@@ -91,7 +164,7 @@ input:focus, select:focus {
   margin-top: 16px;
   width: 100%;
   padding: 10px;
-  background-color: #4caf50;
+  background-color: var(--success);
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -99,40 +172,46 @@ input:focus, select:focus {
   cursor: pointer;
 }
 #save-btn:hover {
-  background-color: #45a049;
+  background-color: var(--success-hover);
 }
 .modal-content .close {
   font-size: 28px;
   line-height: 28px;
-  color: #333;
+  color: var(--text);
 }
 .modal-content h2 {
   margin-top: 0;
   margin-bottom: 16px;
   font-size: 20px;
-  color: #333;
+  color: var(--text);
 }
 
 /* Style for add button */
-#add-btn {
+#add-btn,
+#theme-toggle {
   margin-bottom: 15px;
   padding: 10px 20px;
-  background-color: #2196F3;
+  background-color: var(--primary);
   color: #fff;
   border: none;
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
 }
-#add-btn:hover {
-  background-color: #1976D2;
+#theme-toggle {
+  margin-bottom: 0;
+  min-width: 104px;
+}
+#add-btn:hover,
+#theme-toggle:hover {
+  background-color: var(--primary-hover);
 }
 
 /* Table action buttons */
 .dup-btn, .edit-btn {
   padding: 4px 8px;
   margin: 0 2px;
-  background-color: #2196F3;
+  background-color: var(--primary);
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -140,12 +219,12 @@ input:focus, select:focus {
   cursor: pointer;
 }
 .dup-btn:hover, .edit-btn:hover {
-  background-color: #1976D2;
+  background-color: var(--primary-hover);
 }
 .delete-btn {
   padding: 4px 8px;
   margin: 0 2px;
-  background-color: #f44336;
+  background-color: var(--danger);
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -153,18 +232,28 @@ input:focus, select:focus {
   cursor: pointer;
 }
 .delete-btn:hover {
-  background-color: #e53935;
+  background-color: var(--danger-hover);
 }
 
 /* Override odd-row striping for new entries */
 tbody tr.new-entry {
-  background-color: #e8f5e9 !important;
+  background-color: var(--new-row) !important;
 }
 
 /* Alternate stripes for new-entry rows */
 tbody tr.new-entry:nth-child(odd) {
-  background-color: #e8f5e9 !important;
+  background-color: var(--new-row) !important;
 }
 tbody tr.new-entry:nth-child(even) {
-  background-color: #d5f7d6 !important;
+  background-color: var(--new-row-alt) !important;
+}
+
+@media (max-width: 700px) {
+  body {
+    margin: 12px;
+  }
+  .page-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
